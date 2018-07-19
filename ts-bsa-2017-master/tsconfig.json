@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "compileOnSave": true,
+  "files": [
+    "./src/public/index.ts",
+    "./src/public/fight/fight.ts",
+    "./src/public/fight/fighter.ts",
+    "./src/public/fight/improvedFighter.ts"
+  ]
+}
